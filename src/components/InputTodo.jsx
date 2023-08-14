@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState("");
@@ -37,6 +38,10 @@ const InputTodo = ({ addTodoItem }) => {
       <span className="submit-warning">{message}</span>
     </>
   );
+};
+
+InputTodo.propTypes = {
+  addTodoItem: PropTypes.node,
 };
 
 export default InputTodo;
