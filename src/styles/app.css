@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Segoe UI", sans-serif;
   line-height: 1.4;
@@ -16,10 +17,12 @@ body {
   width: 100%;
   padding: 8rem 20px 3rem;
 }
+
 .todos {
   max-width: 580px;
   margin: 0 auto;
 }
+
 .form-container {
   display: flex;
   border-radius: calc(0.1 * 100px);
@@ -28,6 +31,7 @@ body {
   background: #fff;
   font-size: 1rem;
 }
+
 .input-text {
   width: 85%;
   padding-right: 5px;
@@ -35,21 +39,27 @@ body {
   border-radius: calc(0.5 * 100px);
   font-size: 1rem;
 }
+
 .input-text::-webkit-input-placeholder {
   color: #000;
 }
+
 .input-text::-moz-placeholder {
   color: #000;
 }
+
 .input-text:-ms-input-placeholder {
   color: #000;
 }
+
 .input-text::-ms-input-placeholder {
   color: #000;
 }
+
 .input-text::placeholder {
   color: #000;
 }
+
 .input-submit {
   background: transparent;
   color: #5b5b5b;
@@ -58,16 +68,17 @@ body {
   font-weight: 600;
   margin-right: 10px;
 }
+
 .input-text,
 .input-submit {
   height: 45px;
   outline: none;
   border: none;
 }
+
 .submit-warning {
   font-size: 13px;
   color: red;
   margin-top: 5px;
   display: block;
 }
-
